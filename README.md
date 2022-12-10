@@ -27,8 +27,8 @@ Run `python eval.py -m <model_name> -d <data_name> -r <runs> -a <alpha>` and the
 
 To re-implement the results on the three datasets, run following commands:
 
-- Wikim: `python eval4test.py -m wikim -d wikim -r 5 -a 0.4`
-- OntoNotes: `python eval4test.py -m ontonotes -d ontonotes -r 5 -a 0.2`
-- BBN: `python eval4test.py -m bbn -d bbn -r 5 -a 0`
+- Wikim: `python eval4test.py -m wikim -d wikim -r 5 -a 0.4 -gt_portion 1`
+- OntoNotes: `python eval4test.py -m ontonotes -d ontonotes -r 5 -a 0.2 -gt_portion 1`
+- BBN: `python eval4test.py -m bbn -d bbn -r 5 -a 0 -gt_portion 1`
 
 (Sorry for the delay, the author was overwhelmed by getting the degree and graduating. Plz feel free to start an issue if you have reproduction problems such as not running or not as high scores since ome hyper-paramerters may not be the optmistic setup in the paper. In emergency cases, plz email pangkunyuan@hotmail.com)
